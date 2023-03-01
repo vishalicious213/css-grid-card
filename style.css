@@ -12,6 +12,7 @@ body {
     background: #111d4a;
     color: #fff;
     display: grid;
+    grid-template: 200px auto auto 150px / auto auto;
 }
 
 .card-img {
