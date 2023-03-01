@@ -11,6 +11,7 @@ body {
     max-width: 800px;
     background: #111d4a;
     color: #fff;
+    display: grid;
 }
 
 .card-img {
