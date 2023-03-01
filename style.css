@@ -78,7 +78,7 @@ body {
 @media (min-width: 600px) {
     .card {
         /* grid-template: 200px 1em auto auto 100px 1em / 1em auto auto 1em; */
-        grid-template: 1em 125px auto 100px 1em / auto 1em auto auto 1em;
+        grid-template: 1em auto 1em auto 100px 1em / auto 1em auto auto 1em;
     }
 
     .card-img {
@@ -89,5 +89,20 @@ body {
     .card-title {
         grid-row: 2;
         grid-column: 3 / 5;
+    }
+
+    .card-body {
+        grid-row: 4;
+        grid-column: 3 / 5;
+    }
+
+    .card-read-time {
+        grid-row: 5;
+        grid-column: 3;
+    }
+
+    .card-btn {
+        grid-row: 5;
+        grid-column: 4;
     }
 }
