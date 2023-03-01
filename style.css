@@ -85,4 +85,9 @@ body {
         grid-row: 1 / -1;
         grid-column: 1;
     }
+
+    .card-title {
+        grid-row: 2;
+        grid-column: 3 / 5;
+    }
 }
