@@ -12,7 +12,7 @@ body {
     background: #111d4a;
     color: #fff;
     display: grid;
-    grid-template: 200px auto auto 150px / auto auto;
+    grid-template: 200px auto auto 100px / auto auto;
 }
 
 .card-img {
@@ -51,12 +51,15 @@ body {
     font-weight: 700;
     padding: .35em 1em;
     letter-spacing: 1px;
+    align-self: end;
+    justify-self: end;
 }
 
 .card-read-time {
     margin: 0;
     opacity: .6;
     line-height: 1;
+    align-self: end;
 }
 
 .card-read-time span {
