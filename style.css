@@ -40,6 +40,7 @@ body {
     font-size: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
+    grid-column: 1 / -1;
 }
 
 .card-btn {
