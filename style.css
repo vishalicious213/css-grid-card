@@ -34,7 +34,7 @@ body {
     color: #05cbe9;
     font-size: 1.75rem;
     margin: 0;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 3;
 }
 
@@ -42,7 +42,7 @@ body {
     font-size: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 4;
 }
 
