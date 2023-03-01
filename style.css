@@ -72,3 +72,17 @@ body {
     display: block;
     font-size: 1.25em;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+    .card {
+        /* grid-template: 200px 1em auto auto 100px 1em / 1em auto auto 1em; */
+        grid-template: 1em 125px auto 100px 1em / auto 1em auto auto 1em;
+    }
+
+    .card-img {
+        grid-row: 1 / -1;
+        grid-column: 1;
+    }
+}
