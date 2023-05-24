@@ -4,6 +4,8 @@ This is a small Scrimba project from Module 6 (Responsive Design) utilizing CSS 
 
 Deployed at: https://vish213-css-grid-card.netlify.app/
 
+![](./img/screenshot.jpg)
+
 ## CSS concepts
 
 - display: grid
